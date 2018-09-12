@@ -1,19 +1,16 @@
 h1 {
-
 	text-align: center;
 	color:navy;
-  font-weight: bold;
-  font-size: 90px;
-
+	font-weight: bold;
+	font-size: 90px;
 }
+
 h2 {
 
 	text-align: center;
 	color:	blue;
 	border-bottom: 4px solid grey;
 	border-color: white;
-
-
 }
 
 p {
@@ -23,7 +20,6 @@ p {
 
 footer {
 	color: white;
-
 
 }
 
@@ -60,9 +56,8 @@ img{
 	margin-top:5px;
 	margin-bottom: 5px;
 
-
-
 }
+
 
 
 img.left {
@@ -73,40 +68,29 @@ img.left {
 	margin-bottom:5px;
 }
 
-img.left1 {
-	float: left;
-	height: 200px;
-    width: 25%; 
-    margin-right:10px;
-	margin-bottom:5px;
-}
-
-
-
-
 
 
 
 
 nav ul{
-padding: 5px;
-text-align: center;
-background-color:purple;
-margin: 0;
-border-radius:5px; 
+	padding: 5px;
+	text-align: center;
+	background-color:purple;
+	margin: 0;
+	border-radius:5px; 
 }
 
 nav ul li {
-display: inline;
+     display: inline;
 }
 
 
 nav ul li a {
-text-decoration:none; 
+    text-decoration:none; 
     font-family:Impact ;
     color:red;
     padding: .2em 1em;
-background-color:purple;
+    background-color:purple;
 }
 
 a:hover {
