@@ -1,27 +1,28 @@
 h1 {
 
 	text-align: center;
-	color:red;
+	color:navy;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 90px;
 
 }
 h2 {
 
 	text-align: center;
-	color:	#40E0D0;
+	color:	blue;
+	border-bottom: 4px solid grey;
+	border-color: white;
+
+
 }
 
 p {
  
-    font-family: "Times New Roman", Times, serif;
+    font-family: Marker Felt, fantasy;
 }
 
 footer {
 	color: white;
-
-
-
 
 
 }
@@ -31,8 +32,8 @@ body{
 	width: 50%;
 	margin-left: 25%;
 	margin-right: 25%;
-	color:gold;
-	  background-image: url(../images/2.jpg);
+	color: 	red;
+	  background-image: url(../images/1.gif);
 	  background-size: cover;
 
 }
@@ -55,6 +56,7 @@ img.rechts {
 img{
     border-style: solid;
     border-width: 2px;
+    border-color: gold;
 	margin-top:5px;
 	margin-bottom: 5px;
 
@@ -89,7 +91,7 @@ img.left1 {
 nav ul{
 padding: 5px;
 text-align: center;
-background-color:#AAAAAA;
+background-color:purple;
 margin: 0;
 border-radius:5px; 
 }
@@ -102,11 +104,33 @@ display: inline;
 nav ul li a {
 text-decoration:none; 
     font-family:Impact ;
-    color:#001f3f;
+    color:red;
     padding: .2em 1em;
-background-color:#AAAAAA;
-}
-a:hover {
-    background-color: white;
+background-color:purple;
 }
 
+a:hover {
+    background-color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:purple; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: purple; 
+}
