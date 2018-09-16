@@ -1,0 +1,25 @@
+/*nav ul{
+	padding: 5px;
+	text-align: center;
+	background-color:purple;
+	margin: 0;
+	border-radius:5px; 
+}
+
+nav ul li {
+     display: inline;
+}
+
+
+nav ul li a {
+    text-decoration:none; 
+    font-family:Impact ;
+    color:red;
+    padding: .2em 1em;
+    background-color:purple;
+    transition: 0.2s ease
+}
+
+a:hover {
+    background-color: black;
+}*/
